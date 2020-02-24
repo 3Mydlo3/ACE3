@@ -24,4 +24,15 @@ class CfgMagazines {
         descriptionShort = "24 Round DAGR";
         weight = 72;
     };
+
+    class PylonMissile_1Rnd_LG_scalpel;
+    class 1Rnd_ACE_TV_Missile: PylonMissile_1Rnd_LG_scalpel {
+        ammo = "ACE_TV_Missile";
+        count = 1;
+        displayName = "1 Round TV Missile";
+        displayNameShort = "1 Round TV Missile";
+        descriptionShort = "1 Round TV Missile";
+        pylonWeapon = QGVAR(TV_Missile);
+        weight = 400;
+    };
 };

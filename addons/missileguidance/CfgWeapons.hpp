@@ -7,4 +7,14 @@ class CfgWeapons {
         lockingTargetSound[] = {"",0,1};
         lockedTargetSound[] = {"",0,1};
     };
+
+    class missiles_SCALPEL;
+
+    class GVAR(TV_Missile): missiles_SCALPEL {
+        displayName = "TV Missile";
+        canLock = 0;
+        magazines[] = {"1Rnd_ACE_TV_Missile"};
+        lockingTargetSound[] = {"",0,1};
+        lockedTargetSound[] = {"",0,1};
+    };
 };
